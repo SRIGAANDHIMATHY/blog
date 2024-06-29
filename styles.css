@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #5fffb7dc;
+    color: #daee64;
+}
+header {
+    background: #194e6f;
+    color: #ffffff;
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #f39de7;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size:larger;
+}
+main {
+    width: 80%;
+    margin: 20px auto ;
+    padding: 30px;
+    background : #cd207f;
+    border :#000000 3px solid;
+    box-shadow: 0 0 10px rgba(208, 208, 208, 0.1);
+}
+.post {
+    margin-bottom: 20px;
+}
+
+.post h2 {
+    color: #d0ff00;
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-style: Bold;
+}
+.post h3{
+    font-size: 1.1em;
+    line-height: 1.8;
+    font-family:'Lucida Sans';
+    font-variant:normal;
+    font-style: italic;
+    font-weight:bold;
+}
+
+.post img {
+    max-width: 80%;
+    height:250px ;
+    display:block;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border:rgb(0, 12, 72) 3px solid;
+}
+
+article{
+    font-size: 1.1em;
+    line-height: 1.8;
+    font-family: 'Trebuchet MS';
+    font-variant:normal;
+}
+
+.post p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    font-family: 'Trebuchet MS';
+    font-variant:normal;
+    font-style: italic;
+    font-weight:bold;
+}
+footer {
+    background: #194e6f;
+    font-family: 'Trebuchet MS';
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: x-large;
+}
